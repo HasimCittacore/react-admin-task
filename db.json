@@ -1,0 +1,88 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Elon Musk",
+      "email": "elonmusk@yahoo.com",
+      "course": "react-js",
+      "joinedAt": "2022-05-04",
+      "batchNo": "B33 WD English"
+    },
+    {
+      "id": "3",
+      "name": "MS Dhoni",
+      "email": "msdind@yahoo.com",
+      "course": "react-js",
+      "joinedAt": "10/03/2022",
+      "batchNo": "B33 WD English"
+    },
+    {
+      "name": "Hasim",
+      "email": "hasim1063@example.com",
+      "course": "react-js",
+      "id": "eJmhQis",
+      "joinedAt": "2022-02-10",
+      "batchNo": "B33 WD English"
+    },
+    {
+      "id": "10",
+      "name": "Guru",
+      "course": "CCNA",
+      "email": "462hasim@gmail.com",
+      "joinedAt": "2022-04-28",
+      "batchNo": "B33 WD English"
+    },
+    {
+      "id": "20",
+      "name": "Mohaboob Razick",
+      "course": "Node.js",
+      "email": "mohabbob4897@gmail.com",
+      "joinedAt": "2022-04-25",
+      "batchNo": "B34-WE"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "name": "Christopher Nolan",
+      "email": "nolanmovies@gmail.com",
+      "expertise": "React-js",
+      "assignedto": "B33 WD English"
+    },
+    {
+      "id": "2",
+      "name": "Henry William",
+      "email": "henrywriter@yahoo.com",
+      "expertise": "Node-js",
+      "assignedto": "B33 WE English"
+    },
+    {
+      "id": "3",
+      "name": "MacAuthor",
+      "email": "macteach@gmail.com",
+      "expertise": "vue-js",
+      "assignedto": "B32 WD English"
+    },
+    {
+      "name": "SivaRanjini",
+      "email": "sivaranjini@example.com",
+      "expertise": "react-js",
+      "id": "flspw0r",
+      "assignedto": "B33 WD English"
+    },
+    {
+      "id": "5",
+      "name": "Uma Maheshwari",
+      "expertise": "Front-End",
+      "assignedto": "B33 WD English",
+      "email": "uma@123gmail.com"
+    },
+    {
+      "id": "13",
+      "name": "Rishab Pant",
+      "expertise": "Node.js",
+      "assignedto": "B32 WD English",
+      "email": "rishab24@yahoo.com"
+    }
+  ]
+}

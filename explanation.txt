@@ -1,0 +1,37 @@
+Start with "npm init" command which create a package.json locally.
+Begin with creating a set-up of "JSON server" to get the data which will get displayed.
+Inside the package.json folder from the "scripts" create a json server and initialize it to run in any other port such as localhost:5000.
+
+
+create a react-app .
+As api is running on the server 5000, add a proxy at the package.json of the react-app.
+Add a folder name to the script in the react-folder(server folder) to provide a script to make it run in the name as we suggest.
+Add a concurrently package to make both the server(lh:3000 & lh:5000) runs in the same time.
+Add the concurrently to the script part of react-folder(server folder) by giving it a name,this name will help the app run .
+Now make the changes in the App.js folder and start the app by giving npm run "folder name"
+
+Installation :
+install package react-admin & ra-data-json-server.
+
+react part
+import Admin, Resource from react-admin.(this will provide us dashboard UI)
+import restProvider from ra-data-simple-rest.(this will provide us the json-data)
+or 
+import jsonServerProvider from ra-json-data-server.
+Provide Admin element having the props jsonServerProvider with the URL(here it is lh:3000)
+Give the Resource with the props name(json variable name) and components with the CRUD operation to the respective field.
+
+Create a child component to receive the props of the data from the json and provide the required field to get populated in the field.
+As shown provide the props as spread operator to get all the data from the json server.
+Add EditButton and DeleteButton and provide basepath as the attribute to select the data for the action.
+
+MiddleWare part:
+
+Here the middlewares is required for the content-page header which is required for the pagination.(Must part)
+
+StudentEdit component also receives the props and as same as the studentlist,edit element receives the props 
+as spread operator for populating the fields of same list to get edited.
+StudentCreate also have same function as StudentEdit.
+
+
+TeacherList,TeacherEdit,TeacherCreate also have to done as same as Student.
