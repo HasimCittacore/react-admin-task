@@ -1,0 +1,3 @@
+[submodule "stud_teach_mgmt"]
+	path = stud_teach_mgmt
+	url = https://github.com/HasimNewCoder/stud_teach_mgmt
